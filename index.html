@@ -1,14 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="buttons.css" />
+    <link rel="icon" type="image/x-icon" href="/stethoscope.png" />
     <title>Making Medicine</title>
-</head>
-<body>
-    <header>
-        <h1 class="header-1">Making medicine</h1>
-    </header>
-</body>
+  </head>
+  <body>
+    <!-- <header class="header dancing-script-header">
+      <div class="header__logo-box"></div>
+
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Making Medicine</span>
+        </h1>
+
+        <a href="#section-tours" class="btn btn--white btn--animated"
+          >Discover our tours</a
+        >
+      </div>
+    </header> -->
+
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+      <div class="navigation__background">&nbsp;</div>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link montserrat-nav">About</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link montserrat-nav">Stories</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link montserrat-nav"
+              >Book appointment</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </body>
 </html>
