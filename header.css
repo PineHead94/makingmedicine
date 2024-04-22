@@ -1,4 +1,4 @@
-.header {
+/* .header {
   height: 85vh;
   background-image: linear-gradient(
       to right bottom,
@@ -43,4 +43,32 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+} */
+
+h1 {
+  margin: 0;
+}
+
+.header-custom {
+  background-color: #fff;
+  box-shadow: 2px 4px 10px #00000021;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header-heading-custom {
+  font-size: 1em;
+  margin-left: 20px;
+  color: #444b54;
+}
+
+.header-container-main{
+  display: flex;
+}
+
+.header-image-1{
+  margin-left: 10px;
+  height: 30px;
 }
