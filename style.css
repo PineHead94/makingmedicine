@@ -12,8 +12,36 @@ body {
   font-optical-sizing: auto;
   font-style: normal;
 }
+.righteous-regular {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.banner-text-about-w {
+  font-size: 55px;
+}
 .navigation__checkbox {
   display: none;
+}
+.banner-text-header {
+  font-size: 5em;
+}
+.banner-text-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.banner-text-about {
+  text-align: left;
+  font-size: 18px;
+  margin-top: 60px;
+}
+.banner-text-img {
+  height: 50px;
+}
+.website-content-main {
+  padding: 2em;
 }
 .navigation__button {
   background-color: #fff;
@@ -140,7 +168,18 @@ body {
   top: 0;
   transform: rotate(-135deg);
 }
-
+.banner-image-main {
+  margin-top: 20px;
+  height: 50px;
+}
+.banner-image-main {
+  height: 700px;
+  margin-top: 65px;
+}
+.banner-main {
+  display: flex;
+  margin-top: 70px;
+}
 @media screen and (min-width: 480px) {
   .navigation__link:link,
   .navigation__link:visited {
@@ -169,5 +208,23 @@ body {
   .navigation__background {
     top: 3.5rem;
     right: 1.5rem;
+  }
+}
+@media screen and (max-width: 1395px) {
+  .banner-main {
+    flex-direction: column;
+  }
+  .banner-image-main {
+    width: 700px;
+    align-self: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  .banner-image-main {
+    width: 300px;
+    align-self: center;
+  }
+  .banner-image-main {
+    height: 300px;
   }
 }

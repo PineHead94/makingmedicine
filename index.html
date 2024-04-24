@@ -16,16 +16,19 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="buttons.css" />
-    <!-- <link rel="icon" type="image/x-icon" href="/icons8-stethoscope-64.png" /> -->
-    <!-- <link rel="icon" type="image/x-icon" href="/icons8-scalpel-49.png" /> -->
     <link
       rel="icon"
       type="image/x-icon"
       href="/icons8-alternative-herbal-medicine-64.png"
     />
-
     <title>Making Medicine</title>
   </head>
   <body>
@@ -46,7 +49,7 @@
       </div>
     </header>
 
-    <div class="navigation">
+    <div class="navigation navigation-burger-menu">
       <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
 
       <label for="navi-toggle" class="navigation__button">
@@ -56,7 +59,7 @@
       <nav class="navigation__nav">
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a href="#" class="navigation__link montserrat-nav">About</a>
+            <a href="#banner-main" class="navigation__link montserrat-nav">About</a>
           </li>
           <li class="navigation__item">
             <a href="#" class="navigation__link montserrat-nav">Stories</a>
@@ -72,5 +75,43 @@
         </ul>
       </nav>
     </div>
+    <main class="website-content-main">
+      <div class="banner-main" id="banner-main">
+        <img src="/85epIkbEsTUdc.png" alt="banner" class="banner-image-main" />
+        <div class="banner-text-main">
+          <p class="banner-text-about montserrat-nav">
+            <span class="dancing-script-header banner-text-about-w">W</span>elcome to our philosophy website, a digital sanctuary where the
+            pursuit of wisdom knows no bounds. Delve into the timeless inquiries
+            that have shaped civilizations, as we journey through the depths of
+            human thought and contemplation.
+            <br />
+            <br />
+            Here, amidst the ethereal landscapes of reason and imagination, we
+            invite you to explore the profound questions that have captivated
+            minds for millennia. From the ancient dialogues of Socrates to the
+            groundbreaking theories of contemporary thinkers, our platform
+            serves as a nexus for intellectual exploration and discourse.
+            Whether you are a seasoned philosopher or a curious seeker of truth,
+            you will find a wealth of resources to ignite your curiosity and
+            expand your understanding of the universe and our place within it.
+            <br />
+            <br />
+            Join us on a voyage through the corridors of metaphysics, ethics,
+            epistemology, and beyond, as we endeavor to unravel the mysteries of
+            existence and grapple with the complexities of the human condition.
+            Here, amidst the boundless expanse of philosophical inquiry, we
+            invite you to engage in dialogue, challenge assumptions, and embark
+            on a quest for enlightenment. Welcome to a haven for the inquisitive
+            mind, where philosophy flourishes and the pursuit of wisdom is
+            celebrated. <br>
+            Welcome to our philosophy website.
+          </p>
+          <img src="./icons8-basil-100.png" alt="park-bench" class="banner-text-img">
+        </div>
+      </div>
+      
+    </main>
   </body>
 </html>
+
+<script src="./script.js"></script>
