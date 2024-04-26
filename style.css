@@ -234,6 +234,7 @@ body {
 @media screen and (max-width: 1395px) {
   .banner-main {
     flex-direction: column;
+    margin-top: 0;
   }
   .banner-image-main {
     width: 700px;
