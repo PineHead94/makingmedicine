@@ -11,6 +11,7 @@ h1 {
   justify-content: flex-start;
   position: fixed;
   width: 100%;
+  z-index: 200;
 }
 
 .header-heading-custom {
