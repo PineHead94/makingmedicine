@@ -30,6 +30,27 @@
       href="./images/icons8-alternative-herbal-medicine-64.png"
     />
     <link rel="stylesheet" href="scrollbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
     <title>Making Medicine</title>
   </head>
   <body>
@@ -54,7 +75,7 @@
             >
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link montserrat-nav">Mail me</a>
+            <a href="#mail-me" class="navigation__link montserrat-nav">Mail me</a>
           </li>
         </ul>
       </nav>
@@ -116,13 +137,39 @@
           <div class="stories-container-main">
             <div class="stories-inner-container"></div>
             <div class="stories-middle-container">
-              <div class="stories-middle-wrapper"></div>
+              <div class="stories-middle-wrapper">
+                <h4 class="montserrat-nav comming-soon-text">Coming Soon..</h4>
+              </div>
             </div>
             <div class="stories-inner-container-2"></div>
           </div>
         </div>
       </div>
+      <div class="mail-container" id="mail-me">
+        <div class="mail-me-image-container">
+          <img src="./images/mail_text.png" alt="mail" class="mail-me-image" />
+        </div>
+        <div class="mail-form-container">
+          <form target="_blank" action="https://formsubmit.co/udhav.varma.uv@gmail.com" method="POST">
+            <div class="form-group">
+              <div class="form-row">
+                <div class="col">
+                  <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                </div>
+                <div class="col">
+                  <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+          </form>
+        </div>
+      </div>
     </main>
+    <!-- <div class="footer-container"></div> -->
   </body>
 </html>
 
