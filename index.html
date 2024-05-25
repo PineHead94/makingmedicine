@@ -24,6 +24,7 @@
     />
     <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="buttons.css" />
+    <link rel="stylesheet" href="card.css" />
     <link
       rel="icon"
       type="image/x-icon"
@@ -75,7 +76,9 @@
             >
           </li>
           <li class="navigation__item">
-            <a href="#mail-me" class="navigation__link montserrat-nav">Mail me</a>
+            <a href="#mail-me" class="navigation__link montserrat-nav"
+              >Mail me</a
+            >
           </li>
         </ul>
       </nav>
@@ -138,7 +141,68 @@
             <div class="stories-inner-container"></div>
             <div class="stories-middle-container">
               <div class="stories-middle-wrapper">
-                <h4 class="montserrat-nav comming-soon-text">Coming Soon..</h4>
+                <div class="left-arrow-container arrow-container">
+                  <img
+                    src="./images/left_arrow_gray.png"
+                    alt="left"
+                    class="left-arrow-image arrow-image"
+                  />
+                </div>
+                <div class="stories-middle-wrapper-2">
+                  <div class="articles story-container-main">
+                    <li class="articles__article" style="--animation-order: 2">
+                      <a class="articles__link">
+                        <div class="articles__content articles__content--lhs">
+                          <h2 class="articles__title">
+                            Exploring the Depths: A Journey into Philosophy
+                          </h2>
+                        </div>
+                        <div
+                          class="articles__content articles__content--rhs"
+                          aria-hidden="true"
+                        >
+                          <h2 class="articles__title">
+                            Exploring the Depths: A Journey into Philosophy
+                          </h2>
+                          <div class="articles__footer dancing-script-header">
+                            <p>Chocolates</p>
+                            <time>25 May 2024</time>
+                          </div>
+                        </div></a
+                      >
+                    </li>
+                    <li class="articles__article" style="--animation-order: 1">
+                      <a class="articles__link">
+                        <div class="articles__content articles__content--lhs">
+                          <h2 class="articles__title">
+                            Exploring the Frontiers of Medicine: A Journey into
+                            Health and Healing
+                          </h2>
+                        </div>
+                        <div
+                          class="articles__content articles__content--rhs"
+                          aria-hidden="true"
+                        >
+                          <h2 class="articles__title">
+                            Exploring the Frontiers of Medicine: A Journey into
+                            Health and Healing
+                          </h2>
+                          <div class="articles__footer dancing-script-header">
+                            <p>Cakes</p>
+                            <time>25 May 2024</time>
+                          </div>
+                        </div></a
+                      >
+                    </li>
+                  </div>
+                </div>
+                <div class="right-arrow-container arrow-container">
+                  <img
+                    src="./images/right_arrow_gray.png"
+                    alt="right"
+                    class="right-arrow-image arrow-image"
+                  />
+                </div>
               </div>
             </div>
             <div class="stories-inner-container-2"></div>
@@ -150,21 +214,52 @@
           <img src="./images/mail_text.png" alt="mail" class="mail-me-image" />
         </div>
         <div class="mail-form-container">
-          <form target="_blank" action="https://formsubmit.co/udhav.varma.uv@gmail.com" method="POST">
+          <!-- <div class="mail-form-side-image-container">
+            <img
+              src="./images/vivid-traveler-walking-in-the-woods.gif"
+              alt="boat"
+              class="mail-form-side-image"
+            />
+          </div> -->
+          <form
+            target="_blank"
+            action="https://formsubmit.co/udhav.varma.uv@gmail.com"
+            method="POST"
+          >
             <div class="form-group">
               <div class="form-row">
                 <div class="col">
-                  <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    placeholder="Full Name"
+                    required
+                  />
                 </div>
                 <div class="col">
-                  <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                  <input
+                    type="email"
+                    name="email"
+                    class="form-control"
+                    placeholder="Email Address"
+                    required
+                  />
                 </div>
               </div>
             </div>
             <div class="form-group">
-              <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+              <textarea
+                placeholder="Your Message"
+                class="form-control"
+                name="message"
+                rows="10"
+                required
+              ></textarea>
             </div>
-            <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+            <button type="submit" class="btn btn-lg btn-dark btn-block">
+              Send
+            </button>
           </form>
         </div>
       </div>
