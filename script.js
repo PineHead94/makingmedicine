@@ -10,6 +10,9 @@ headerAnchorTag[1].addEventListener("click", () => {
 headerAnchorTag[2].addEventListener("click", () => {
   headerBurgerMenu.checked = false;
 });
+headerAnchorTag[3].addEventListener("click", () => {
+  headerBurgerMenu.checked = false;
+});
 
 
 document.addEventListener("DOMContentLoaded", function () {

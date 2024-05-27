@@ -260,13 +260,15 @@ body {
   margin-top: 20px;
   /* width: 50%; */
   align-self: flex-end;
+  display: flex;
 }
 .comming-soon-text {
   color: #444b54;
 }
 .mail-form-container {
   /* display: flex; */
-  width: 50%;
+  width: 55%;
+  gap: 1em;
 }
 .arrow-container {
   background-color: #fff;
@@ -286,6 +288,16 @@ body {
 }
 .left-arrow-container {
   right: 100px;
+}
+form {
+  width: 100%;
+}
+.mail-me-image-container-2 {
+  display: flex;
+  align-items: flex-end;
+}
+.mail-me-image-2 {
+  width: 150px;
 }
 @media screen and (min-width: 480px) {
   .navigation__link:link,
